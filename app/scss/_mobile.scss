@@ -279,8 +279,11 @@
   }
   #map {
     height: 380px;
+    border-radius: 20px;
   }
-  .contact-info__item .address, .contact-info__item .mail {
+  .contact-info__item .address,
+  .contact-info__item .mail,
+  .contact-info__item .tel {
     font-size: 16px;
     line-height: 24px;
   }
