@@ -1383,4 +1383,23 @@ button:focus {
   cursor: pointer;
   margin-top: -64px;
 }
+.text {
+  p {
+    font-size: 16px;
+    color: #454340;
+    line-height: 1.3;
+    margin: 0 0 15px;
+  }
+}
 
+.page-404 {
+  text-align: center;
+  &__ico {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+  &__footer {
+    padding-top: 30px;
+  }
+}

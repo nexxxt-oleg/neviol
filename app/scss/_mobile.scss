@@ -518,6 +518,7 @@
   .page-title {
     font-size: 28px;
     padding-bottom: 15px;
+    word-break: break-all;
   }
   .home-products__item__img {
     padding-bottom: 20px;
@@ -525,4 +526,8 @@
   .fpad80 {
     padding-bottom: 40px;
   }
+  .page-404__footer {
+    padding-top: 15px;
+  }
+
 }
