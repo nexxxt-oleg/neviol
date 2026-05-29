@@ -743,19 +743,28 @@
                     const front = card.querySelector('.card-front');
                     const back = card.querySelector('.card-back');
 
-                    gsap.to(front, {
-                        rotationY: 0,
+                    gsap.fromTo(front, {opacity: 0}, {
+                        opacity: 1,
+
                         duration: 0.8,
-                       // ease: 'ea',
-                        delay: index * 0.3
+                        ease: 'none',
+                        delay: index * 0.2
                     });
 
-                    gsap.to(back, {
-                        rotationY: -180,
-                        duration: 0.8,
-                       // ease: 'power2.inOut',
-                        delay: index * 0.3
-                    });
+
+                    /* gsap.to(front, {
+                         rotationY: 0,
+                         duration: 0.8,
+                         ease: 'none',
+                         delay: index * 0.1
+                     });
+
+                     gsap.to(back, {
+                         rotationY: -180,
+                         duration: 0.8,
+                         ease: 'none',
+                         delay: index * 0.1
+                     });*/
                 });
             }
         });

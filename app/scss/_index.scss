@@ -1406,7 +1406,7 @@ button:focus {
 .card-flipper {
   position: relative;
   width: 100%;
-  transform-style: preserve-3d;
+ // transform-style: preserve-3d;
   height: 430px;
   & .card-front,
   & .card-back {
@@ -1415,18 +1415,18 @@ button:focus {
     height: 100%;
     top: 0;
     left: 0;
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    transition: transform 0.6s ease;
-    transform-style: preserve-3d;
+   // backface-visibility: hidden;
+   // -webkit-backface-visibility: hidden;
+
+   // transform-style: preserve-3d;
     border-radius: 40px;
   }
-  .card-front {
+ /* .card-front {
     transform: rotateY(180deg);
   }
   .card-back {
     transform: rotateY(0deg);
-    background: #eef0f3;
+    background: #8b8c8d;
 
-  }
+  }*/
 }
