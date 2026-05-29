@@ -662,14 +662,14 @@
                     gsap.to(front, {
                         rotationY: 0,
                         duration: 0.8,
-                        ease: "elastic.out(1, 0.5)",
+                       // ease: 'ea',
                         delay: index * 0.3
                     });
 
                     gsap.to(back, {
                         rotationY: -180,
                         duration: 0.8,
-                        ease: "elastic.out(1, 0.5)",
+                       // ease: 'power2.inOut',
                         delay: index * 0.3
                     });
                 });
