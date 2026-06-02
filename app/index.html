@@ -642,9 +642,9 @@
             onEnter: () => {
                 cards.forEach((card, index) => {
 
-                    gsap.fromTo(card, {opacity: 0}, {
+                    gsap.fromTo(card, {opacity: 0, y: 20}, {
                         opacity: 1,
-
+                        y: 0,
                         duration: 0.8,
                         ease: 'none',
                         delay: index * 0.2
@@ -670,9 +670,10 @@
 
         let fade_in = gsap.utils.toArray('.fade_in');
         fade_in.forEach((item, idx) => {
-            gsap.fromTo(item, {opacity: 0}, {
+            gsap.fromTo(item, {opacity: 0, y: 20}, {
                 opacity: 1,
                 duration: 1,
+                y: 0,
                 delay: idx * 0.2,
 
                 scrollTrigger: {

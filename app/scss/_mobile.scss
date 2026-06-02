@@ -529,5 +529,38 @@
   .page-404__footer {
     padding-top: 15px;
   }
-
+  .modal-dialog .modal-content__title {
+    font-size: 20px;
+  }
+  .modal-dialog {
+    .modal-content {
+      padding: 50px 20px 40px;
+    }
+    .btn-close {
+      top: 15px;
+      right: 15px;
+    }
+    .modal-content__sub-title {
+      font-size: 14px;
+    }
+  }
+  .form-inp__val {
+    height: 44px;
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  .form-politic {
+    padding: 0 0 20px;
+  }
+  .form-checkbox__text {
+    font-size: 12px;
+  }
+  .form-submit {
+    .btn {
+      width: 100%;
+    }
+  }
+  .form-item__inp {
+    padding-left: 10px;
+  }
 }
