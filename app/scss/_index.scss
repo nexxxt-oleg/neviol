@@ -1450,11 +1450,22 @@ button:focus {
   color: #707686;
   text-decoration: none;
 }
-.home-products__item:hover {
-  .home-products__item__img {
-    background-image: none;
+
+.animate-text-up {
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.3s ease-in-out 0.2s;
+}
+
+.animating  {
+  & .animate-text-up {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
   }
 }
-.home-products__item.home-products__item--first:hover {
-  background-image: none;
+
+.split * {
+  will-change: transform;
 }
