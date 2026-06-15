@@ -85,7 +85,7 @@
     </header>
 
 
-<div class="single-product" >
+<div class="single-product">
     <div class="single-product__header" id="singleNav">
         <div class="container">
             <div class="breadcrumbs">
@@ -105,9 +105,9 @@
                 <div class="single-product__header__img">
                     <picture>
                         <source srcset="images/dist/pr1.png 1x, images/dist/pr1@2.png 2x">
-                        <img src="images/dist/pr1.png" width="623" height="520" loading="lazy" alt="">
+                        <img src="images/dist/pr1.png" width="623" height="520" loading="lazy" alt="" class="single-product__header__img__animate" style="opacity: 0">
                     </picture>
-                    <div class="single-product__header__ip">
+                    <div class="single-product__header__ip" style="opacity: 0">
                         <svg width="68" height="23" viewBox="0 0 68 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M4.50461 0.0117188H0V22.3009H4.50461V0.0117188Z" fill="white"/>
                             <path d="M44.1736 14.1046V0H38.7336L28.3828 14.7569V18.1908H39.6813V22.2769H44.1859V18.1908H46.709V14.1046H44.1859H44.1736ZM39.669 14.1046H33.5274L39.669 4.97231V14.1046Z"
@@ -129,7 +129,7 @@
             </div>
 
         </div>
-        <div class="single-product__fix-menu" >
+        <div class="single-product__fix-menu" style="opacity: 0">
             <div class="single-product__nav">
                 <div class="container">
                     <div class="single-product__nav__wrap">
@@ -164,7 +164,7 @@
 
     <div class="single-product__body">
         <div class="container">
-            <div class="single-product__top-video">
+            <div class="single-product__top-video fade_in_up">
                 <video src="images/dist/full_render_1240.mov"
                        poster="images/dist/video-poster.jpg"
                        autoplay
@@ -173,29 +173,30 @@
                 ></video>
             </div>
             <div class="single-product__section" id="nav1">
-                <div class="single-product__section__header">
+                <div class="single-product__section__header fade_in_up">
                     <div class="single-product__section__header__title">С заботой о Вашем</div>
                     <div class="single-product__section__header__subtitle">времени, ресурсах и качестве блюд</div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 fpad16">
+                    <div class="col-lg-4 fpad16 fade_in_up">
                         <div class="single-product__card" style="background-color: #fff;">
-                            <div class="single-product__card__wrap">
+                            <div class="single-product__card__wrap animate-text-up">
                                 <h3>Компактные габариты</h3>
                                 <p>для установки оборудования даже <br>на самый маленький камбуз</p>
                             </div>
                             <div class="single-product__card__img justify-content-center">
                                 <picture>
                                     <source srcset="images/dist/c1_mob.png" media="(max-width: 574px)">
-                                    <source srcset="images/dist/c1.png 1x, images/dist/c1@2.png 2x" media="(min-width: 574.1px)">
+                                    <source srcset="images/dist/c1.png 1x, images/dist/c1@2.png 2x"
+                                            media="(min-width: 574.1px)">
                                     <img src="images/dist/c1.png" width="315" height="271" loading="lazy" alt="">
                                 </picture>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 fpad16">
+                    <div class="col-lg-4 fpad16 fade_in_up" data-delay="0.2">
                         <div class="single-product__card" style="background-color: #707687;">
-                            <div class="single-product__card__wrap single-product__card__wrap--white">
+                            <div class="single-product__card__wrap single-product__card__wrap--white animate-text-up">
                                 <h3>Боковые съемные поручни</h3>
                                 <p>Для обеспечения безопасности персонала во время качки<br><br>
                                     Без поручней - позволяет<br> встроить плиту в нужные<br> габариты</p>
@@ -203,15 +204,17 @@
                             <div class="single-product__card__img justify-content-end">
                                 <picture>
                                     <source srcset="images/dist/c2_mob.png" media="(max-width: 574px)">
-                                    <source srcset="images/dist/c2.png 1x, images/dist/c2@2.png 2x" media="(min-width: 574.1px)">
+                                    <source srcset="images/dist/c2.png 1x, images/dist/c2@2.png 2x"
+                                            media="(min-width: 574.1px)">
                                     <img src="images/dist/c2.png" width="350" height="353" loading="lazy" alt="">
                                 </picture>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 fpad16">
-                        <div class="single-product__card" style="background: linear-gradient(360deg, #000 0%, #353535 100%);">
-                            <div class="single-product__card__wrap single-product__card__wrap--white mt-auto">
+                    <div class="col-lg-4 fpad16 fade_in_up" data-delay="0.4">
+                        <div class="single-product__card"
+                             style="background: linear-gradient(360deg, #000 0%, #353535 100%);">
+                            <div class="single-product__card__wrap single-product__card__wrap--white mt-auto animate-text-up">
                                 <h3>Ножки позволяют <br>регулировать высоту</h3>
                                 <p>Устойчивость к качке — <br>
                                     крепление к полу судна</p>
@@ -219,15 +222,16 @@
                             <div class="single-product__card__img single-product__card__img--top justify-content-end">
                                 <picture>
                                     <source srcset="images/dist/c3_mob.png" media="(max-width: 574px)">
-                                    <source srcset="images/dist/c3.png 1x, images/dist/c3@2.png 2x" media="(min-width: 574.1px)">
+                                    <source srcset="images/dist/c3.png 1x, images/dist/c3@2.png 2x"
+                                            media="(min-width: 574.1px)">
                                     <img src="images/dist/c3.png" width="390" height="450" loading="lazy" alt="">
                                 </picture>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 fpad16">
+                    <div class="col-12 fpad16 fade_in_up">
                         <div class="single-product__params">
-                            <div class="single-product__params__power">
+                            <div class="single-product__params__power animate-text-up">
                                 <svg width="45" height="72" viewBox="0 0 45 72" fill="none"
                                      xmlns="http://www.w3.org/2000/svg">
                                     <path d="M44.8043 27.7247C44.537 27.2529 44.0349 26.9604 43.4917 26.9604H23.7278L27.0404 1.6739C27.1281 0.841797 26.5227 0.0958731 25.6896 0.00828347C25.1224 -0.0510514 24.5708 0.211717 24.2596 0.689222L0.224037 42.7478C-0.213025 43.457 0.00904231 44.3851 0.719091 44.8203C0.956717 44.9658 1.2297 45.0435 1.50976 45.0435H20.9795L18.3529 70.3682C18.2893 71.2031 18.9144 71.9321 19.7504 71.9956C20.3105 72.038 20.848 71.7696 21.1478 71.2963L44.786 29.242C45.0646 28.7758 45.0717 28.1966 44.8043 27.7247Z"
@@ -246,7 +250,7 @@
                             </div>
                             <div class="single-product__params__line-mob">
                             </div>
-                            <div class="single-product__params__list single-product__params__list--mob-col-4">
+                            <div class="single-product__params__list single-product__params__list--mob-col-4 animate-text-up">
                                 <div class="single-product__params__item">
                                     <div class="single-product__params__item__label">Возможные подключения <br>на 50 и
                                         60 Гц:
@@ -279,7 +283,7 @@
                             </div>
                             <div class="single-product__params__line-mob">
                             </div>
-                            <div class="single-product__params__list">
+                            <div class="single-product__params__list animate-text-up">
                                 <div class="single-product__params__item">
                                     <div class="single-product__params__item__label">Мощность</div>
                                     <div class="single-product__params__item__val">
@@ -306,9 +310,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 fade_in_up">
                         <div class="single-product__card single-product__card--full" style="background-color: #1e75ae;">
-                            <div class="single-product__card__wrap single-product__card__wrap--white pt-lg-3">
+                            <div class="single-product__card__wrap single-product__card__wrap--white pt-lg-3 animate-text-up">
                                 <h3>Поворотный механизм открытия конфорок</h3>
                                 <p>4 шт. по 3 кВт каждая установлены на откидные панели<br><br>
                                     Система термозащиты и аварийным расцепителем исключает ожоги и перегрев</p>
@@ -316,7 +320,8 @@
                             <div class="single-product__card__img justify-content-center">
                                 <picture>
                                     <source srcset="images/dist/c4_mob.png" media="(max-width: 574px)">
-                                    <source srcset="images/dist/c4.jpg 1x, images/dist/c4@2.jpg 2x" media="(min-width: 574.1px)">
+                                    <source srcset="images/dist/c4.jpg 1x, images/dist/c4@2.jpg 2x"
+                                            media="(min-width: 574.1px)">
                                     <img src="images/dist/c4.jpg" width="1200" height="450" loading="lazy" alt="">
                                 </picture>
                             </div>
@@ -325,16 +330,16 @@
                 </div>
             </div>
             <div class="single-product__section">
-                <div class="single-product__section__header">
+                <div class="single-product__section__header fade_in_up">
                     <div class="single-product__section__header__title">Съемные элементы</div>
                     <div class="single-product__section__header__subtitle">быстрая очистка для экономии времени
                         персонала
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 fpad16">
+                    <div class="col-lg-4 fpad16 fade_in_up">
                         <div class="single-product__card" style="background-color: #000;">
-                            <div class="single-product__card__wrap single-product__card__wrap--white">
+                            <div class="single-product__card__wrap single-product__card__wrap--white animate-text-up">
                                 <h3>Противоштормовые
                                     леерные ограждения</h3>
                                 <p>Позволяет фиксировать разный размер кастрюль</p>
@@ -351,24 +356,25 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-8 fpad16">
+                    <div class="col-lg-8 fpad16 fade_in_up" data-delay="0.2">
                         <div class="single-product__card" style="background-color: #cbd3e7;">
-                            <div class="single-product__card__wrap">
+                            <div class="single-product__card__wrap animate-text-up">
                                 <h3>Выдвижной поддон</h3>
                                 <p>Соберет всю жидкость пролитую <br>на рабочую поверхность конфорок</p>
                             </div>
                             <div class="single-product__card__img justify-content-center">
                                 <picture>
                                     <source srcset="images/dist/c6_mob.png" media="(max-width: 574px)">
-                                    <source srcset="images/dist/c6.jpg 1x, images/dist/c6@2.jpg 2x" media="(min-width: 574.1px)">
+                                    <source srcset="images/dist/c6.jpg 1x, images/dist/c6@2.jpg 2x"
+                                            media="(min-width: 574.1px)">
                                     <img src="images/dist/c6.jpg" width="795" height="450" loading="lazy" alt="">
                                 </picture>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-12 fpad16">
+                    <div class="col-lg-12 fpad16 fade_in_up">
                         <div class="single-product__card single-product__card--full" style="background-color: #81848b;">
-                            <div class="single-product__card__wrap single-product__card__wrap--white mt-auto mb-auto">
+                            <div class="single-product__card__wrap single-product__card__wrap--white mt-auto mb-auto animate-text-up">
                                 <h3>Легкосъемные многоразовые фильтры — <br>
                                     жиросборник</h3>
                                 <p>Легко снять и легко поставить обратно
@@ -378,7 +384,8 @@
                             <div class="single-product__card__img justify-content-end">
                                 <picture>
                                     <source srcset="images/dist/c7_mob.png" media="(max-width: 574px)">
-                                    <source srcset="images/dist/c7.jpg 1x, images/dist/c7@2.jpg 2x" media="(min-width: 574.1px)">
+                                    <source srcset="images/dist/c7.jpg 1x, images/dist/c7@2.jpg 2x"
+                                            media="(min-width: 574.1px)">
                                     <img src="images/dist/c7.jpg" width="1200" height="450" loading="lazy" alt="">
                                 </picture>
                             </div>
@@ -388,13 +395,13 @@
             </div>
 
             <div class="single-product__section">
-                <div class="single-product__section__header">
+                <div class="single-product__section__header fade_in_up">
                     <div class="single-product__section__header__title">Продуманный духовой шкаф</div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 fpad16">
-                        <div class="single-product__card" style="background-color: #e56612;">
-                            <div class="single-product__card__wrap single-product__card__wrap--white mt-auto">
+                    <div class="col-lg-4 fpad16 fade_in_up">
+                        <div class="single-product__card single-product__card--mob-h" style="background-color: #e56612;">
+                            <div class="single-product__card__wrap single-product__card__wrap--white mt-auto animate-text-up">
                                 <h3>Конвекция</h3>
                                 <p>Равномерное распределения тепла и возможности готовить на нескольких уровнях
                                     одновременно, что влияет на качество блюд,
@@ -421,9 +428,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-8 fpad16">
+                    <div class="col-lg-8 fpad16 fade_in_up">
                         <div class="single-product__card" style="background-color: #222c46;">
-                            <div class="single-product__card__wrap single-product__card__wrap--white mt-lg-auto mb-auto mw-320">
+                            <div class="single-product__card__wrap single-product__card__wrap--white mt-lg-auto mb-auto mw-320 animate-text-up">
                                 <h3>
                                     <span class="big">GN 2/1</span>
                                     формат противней
@@ -432,17 +439,18 @@
                                     электроэнергию</p>
                             </div>
                             <div class="single-product__card__img justify-content-lg-end justify-content-center  align-items-lg-center h-100">
-                                <picture >
+                                <picture>
                                     <source srcset="images/dist/c8_mob.jpg" media="(max-width: 768px)">
-                                    <source srcset="images/dist/c8.png 1x, images/dist/c8@2.png 2x" media="(min-width: 768.1px)">
+                                    <source srcset="images/dist/c8.png 1x, images/dist/c8@2.png 2x"
+                                            media="(min-width: 768.1px)">
                                     <img src="images/dist/c8.png" width="315" height="274" loading="lazy" alt="">
                                 </picture>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 fpad16">
+                    <div class="col-lg-6 fpad16 fade_in_up" >
                         <div class="single-product__card" style="background-color: #000;">
-                            <div class="single-product__card__wrap single-product__card__wrap--white mt-auto mb-auto mw-320">
+                            <div class="single-product__card__wrap single-product__card__wrap--white mt-auto mb-auto mw-320 animate-text-up">
                                 <h3>
                                     Возможность независимого
                                     нагрева верхних и нижних
@@ -453,15 +461,16 @@
                             <div class="single-product__card__img justify-content-center align-items-center h-100">
                                 <picture>
                                     <source srcset="images/dist/c9_mob.jpg" media="(max-width: 768px)">
-                                    <source srcset="images/dist/c9.jpg 1x, images/dist/c9@2.jpg 2x" media="(min-width: 768.1px)">
+                                    <source srcset="images/dist/c9.jpg 1x, images/dist/c9@2.jpg 2x"
+                                            media="(min-width: 768.1px)">
                                     <img src="images/dist/c9.jpg" width="593" height="449" loading="lazy" alt="">
                                 </picture>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 fpad16">
+                    <div class="col-lg-6 fpad16 fade_in_up" data-delay="0.2">
                         <div class="single-product__card" style="background-color: #655c5b;">
-                            <div class="single-product__card__wrap single-product__card__wrap--white mt-auto mb-auto mw-320">
+                            <div class="single-product__card__wrap single-product__card__wrap--white mt-auto mb-auto mw-320 animate-text-up">
                                 <h3>
                                     Автоматическое освещение
                                 </h3>
@@ -470,7 +479,8 @@
                             <div class="single-product__card__img justify-content-end align-items-center h-100">
                                 <picture>
                                     <source srcset="images/dist/c10_mob.jpg" media="(max-width: 768px)">
-                                    <source srcset="images/dist/c10.png 1x, images/dist/c10@2.png 2x"  media="(min-width: 768.1px)">
+                                    <source srcset="images/dist/c10.png 1x, images/dist/c10@2.png 2x"
+                                            media="(min-width: 768.1px)">
                                     <img src="images/dist/c10.png" width="593" height="453" loading="lazy" alt="">
                                 </picture>
                             </div>
@@ -480,23 +490,14 @@
 
             </div>
             <div class="single-product__section">
-                <div class="single-product__section__header">
+                <div class="single-product__section__header fade_in_up">
                     <div class="single-product__section__header__title">С заботой о ВашеЙ</div>
                     <div class="single-product__section__header__subtitle">безопасности
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="single-product__full-img-left">
-                            <div class="single-product__full-img-left__wrap">
-                                <picture>
-                                    <source srcset="images/dist/left1.png 1x, images/dist/left1@2.png 2x">
-                                    <img src="images/dist/left1.png" width="1055" height="673" loading="lazy" alt="">
-                                </picture>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
+                <div class="row flex-row-reverse">
+
+                    <div class="col-lg-6 fade_in_up" data-delay="0.2">
                         <div class="single-product__prim">
                             <div class="single-product__prim__ico">
                                 <svg width="41" height="48" viewBox="0 0 41 48" fill="none"
@@ -579,6 +580,18 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-6 fade_in_up">
+                        <div class="single-product__full-img-left">
+                            <div class="single-product__full-img-left__wrap">
+                                <picture>
+                                    <source srcset="images/dist/left1_mob.png" media="(max-width: 911px)">
+                                    <source srcset="images/dist/left1.png 1x, images/dist/left1@2.png 2x"
+                                            media="(min-width: 991.1px)">
+                                    <img src="images/dist/left1.png" width="1055" height="673" loading="lazy" alt="">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -588,8 +601,8 @@
                 <div class="row align-items-end">
                     <div class="col-xl-9 col-lg-8">
                         <div class="single-product__specifications__wrap">
-                            <h3>Технические характеристики</h3>
-                            <div class="single-product__specifications__list">
+                            <h3 class="fade_in_up">Технические характеристики</h3>
+                            <div class="single-product__specifications__list fade_in_up">
                                 <div class="single-product__specifications__item specification">
                                     <div class="specification__label">Модель</div>
                                     <div class="specification__value">
@@ -651,14 +664,14 @@
                                     <div class="specification__value"><span>ООО «НЭВИОЛ», Россия</span></div>
                                 </div>
                             </div>
-                            <div class="single-product__specifications__footer">
+                            <div class="single-product__specifications__footer fade_in_up">
                                 Подберем для вас индивидуальный набор модификаций плиты. <br>
                                 Подробности по телефону - <a href="tel:88003007801">8 800 300-78-01</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4">
-                        <div class="single-product__specifications__img">
+                        <div class="single-product__specifications__img fade_in_up" data-delay="0.2">
                             <picture>
                                 <source srcset="images/dist/spec.jpg 1x, images/dist/spec@2.jpg 2x">
                                 <img src="images/dist/spec.jpg" width="663" height="1008" loading="lazy" alt="">
@@ -672,21 +685,30 @@
 
     <div class="single-product__size" id="nav3">
         <div class="container">
-            <h2 class="title-center">Габаритные размеры</h2>
+            <h2 class="title-center fade_in_up">Габаритные размеры</h2>
             <div class="row align-items-center">
-                <div class="col-lg-4 fpad16">
+                <div class="col-lg-4 fpad16 fade_in_up">
                     <div class="single-product__size__item">
-                        <img src="images/dist/size1.svg" width="336" height="381" loading="lazy" alt="">
+                        <picture>
+                            <source srcset="images/dist/size1_1.svg" media="(max-width: 991px)">
+                            <img src="images/dist/size1.svg" width="336" height="381" loading="lazy" alt="">
+                        </picture>
                     </div>
                 </div>
-                <div class="col-lg-4 fpad16">
+                <div class="col-lg-4 fpad16 fade_in_up" data-delay="0.2">
                     <div class="single-product__size__item">
-                        <img src="images/dist/size2.svg" width="350" height="381" loading="lazy" alt="">
+                        <picture>
+                            <source srcset="images/dist/size2_1.svg" media="(max-width: 991px)">
+                            <img src="images/dist/size2.svg" width="350" height="381" loading="lazy" alt="">
+                        </picture>
                     </div>
                 </div>
-                <div class="col-lg-4 fpad16">
+                <div class="col-lg-4 fpad16 fade_in_up" data-delay="0.4">
                     <div class="single-product__size__item">
-                        <img src="images/dist/size3.svg" width="308" height="378" loading="lazy" alt="">
+                        <picture>
+                            <source srcset="images/dist/size3_1.svg" media="(max-width: 991px)">
+                            <img src="images/dist/size3.svg" width="308" height="378" loading="lazy" alt="">
+                        </picture>
                     </div>
                 </div>
             </div>
@@ -695,8 +717,8 @@
 </div>
 <div class="container">
     <div class="single-product__gallery" id="nav4">
-        <h2 class="title-center">галерея</h2>
-        <div class="gallery-box slider">
+        <h2 class="title-center fade_in_up">галерея</h2>
+        <div class="gallery-box slider fade_in_up">
             <div class="swiper overflow-visible" id="gallerySlider">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -734,9 +756,9 @@
         </div>
     </div>
     <div class="fpad100">
-        <h2 class="title-center">Часто задаваемые вопросы</h2>
+        <h2 class="title-center fade_in_up">Часто задаваемые вопросы</h2>
         <div class="faq">
-            <div class="faq__item">
+            <div class="faq__item fade_in_up">
                 <div class="collapsed faq__item__header" data-bs-toggle="collapse" data-bs-target="#faq1">
                     Подходит ли эта плита для установки в условиях ограниченного пространства?
                     <div class="faq__item__header__ico">
@@ -753,7 +775,7 @@
                     </div>
                 </div>
             </div>
-            <div class="faq__item">
+            <div class="faq__item fade_in_up">
                 <div class="collapsed faq__item__header" data-bs-toggle="collapse" data-bs-target="#faq2">
                     Подходит ли эта плита для установки в условиях ограниченного пространства?
                     <div class="faq__item__header__ico">
@@ -770,7 +792,7 @@
                     </div>
                 </div>
             </div>
-            <div class="faq__item">
+            <div class="faq__item fade_in_up">
                 <div class="collapsed faq__item__header" data-bs-toggle="collapse" data-bs-target="#faq3">
                     Подходит ли эта плита для установки в условиях ограниченного пространства?
                     <div class="faq__item__header__ico">
@@ -790,7 +812,7 @@
         </div>
     </div>
     <div class="fpad50">
-        <div class="subscription">
+        <div class="subscription fade_in_up">
             <div class="subscription__desc">
                 <div class="subscription__title">
                     Подписка на новости
