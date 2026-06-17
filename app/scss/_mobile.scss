@@ -882,14 +882,18 @@
   .modal-dialog {
     .modal-content {
       padding: 50px 20px 40px;
+      border-radius: 20px;
     }
     .btn-close {
-      top: 15px;
-      right: 15px;
+      top: 10px;
+      right: 10px;
     }
     .modal-content__sub-title {
       font-size: 14px;
     }
+  }
+  .form-submit .btn {
+    font-size: 14px;
   }
   .form-inp__val {
     height: 44px;
