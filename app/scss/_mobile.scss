@@ -923,6 +923,29 @@
 }
 
 @media screen and (max-width: 574px) {
+  .cookie__wrap {
+    display: block;
+    padding: 18px 30px 20px 62px;
+  }
+  .cookie__ico {
+    width: 24px;
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 20px;
+    svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+  .cookie__text {
+    font-size: 12px;
+    padding: 0 0 15px 0;
+  }
+  .cookie__btn {
+    max-width: 150px;
+  }
+
   .single-product__card__img img {
     width: 300px;
   }

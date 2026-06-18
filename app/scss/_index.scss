@@ -1155,8 +1155,6 @@ button:focus {
     width: 34px;
     height: 34px;
   }
-
-
 }
 
 .modal {
@@ -2261,4 +2259,59 @@ button:focus {
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-image: url("data:image/svg+xml,%3Csvg width='613' height='316' viewBox='0 0 613 316' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath opacity='0.1' d='M248.159 224.987C347.524 134.121 475.47 23.737 642.927 152.127C548.438 148.425 453.445 222.463 393.759 276.814C390.06 280.179 386.529 283.713 382.998 287.079C325.33 342.271 271.025 394.435 203.101 391.911C158.546 390.228 109.116 364.987 53.2969 315.684C65.7384 318.04 77.8442 318.545 89.6133 317.536C147.113 312.319 198.393 270.083 248.159 224.987ZM220.25 130.757C293.554 60.0842 362.991 -6.55097 446.72 0.516192C495.813 4.72292 547.093 34.1702 602.239 90.2037C443.694 5.73276 335.25 105.18 245.301 187.632C244.288 188.645 219.077 211.523 218.064 212.368V212.2C150.14 272.945 90.7902 314.171 15.9727 269.075C67.4202 258.306 113.32 227.007 156.865 189.483C169.643 177.704 207.64 142.873 220.25 130.757ZM458.824 257.463C514.139 210.18 575.842 173.834 659.234 183.088C593.496 245.18 525.571 262.343 458.824 257.463ZM54.3057 184.939C73.9768 176.694 96.5065 176.189 121.39 180.732C83.2243 211.694 43.2092 235.589 0 241.983C14.9635 213.041 32.785 194.026 54.4736 184.939H54.3057Z' fill='white' /%3E%3C/svg%3E");
+}
+
+.just-validate-error-label {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #ff5656 !important;
+  padding: 8px 0 0 20px;
+}
+
+.tpad50 {
+  padding-top: 50px;
+}
+
+.cookie {
+  position: fixed;
+  z-index: 100;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+
+  &__wrap {
+    box-shadow: 0 0 15px 0 rgba(112, 118, 134, 0.2);
+    background: #fff;
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-radius: 20px;
+    max-width: 1096px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px ;
+    gap: 20px;
+  }
+  &__ico {
+    min-width: 36px;
+  }
+  &__text {
+    font-size: 12px;
+    color: #222c46;
+    padding-right: 30px;
+    flex-grow: 1;
+    a {
+      color: #222c46;
+      text-decoration: underline;
+      text-decoration-skip-ink: none;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  &__btn {
+    min-width: 150px;
+  }
 }

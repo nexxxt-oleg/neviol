@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-xl-7">
                 <div class="dealers__desc">
-                    <div class="fade_in_up" >
+                    <div class="fade_in_up">
                         <h1>Приглашаем к сотрудничеству!</h1>
                     </div>
                     <div class="fade_in_up" data-delay="0.2">
@@ -146,7 +146,9 @@
                     <li class="fade_in_up" data-delay="0.4">
                         Нацелены на долгосрочное и взаимовыгодное сотрудничество.
                     </li>
-                    <li class="fade_in_up" data-delay="0.6">Разделяют наши ценности: качество, надёжность, клиентоориентированность.</li>
+                    <li class="fade_in_up" data-delay="0.6">Разделяют наши ценности: качество, надёжность,
+                        клиентоориентированность.
+                    </li>
                 </ol>
             </div>
         </div>
@@ -161,17 +163,21 @@
                     <input class="form-item__inp" type="text" name="city" placeholder="Город и регион деятельности">
                 </div>
                 <div class="form-item">
-                    <input class="form-item__inp" type="text" name="fio" placeholder="Ваше Имя и Фамилия *" required>
+                    <input id="dealersFormFio" class="form-item__inp" type="text" name="fio"
+                           placeholder="Ваше Имя и Фамилия *" required>
                 </div>
                 <div class="form-item">
-                    <input class="form-item__inp" type="tel" name="phone" placeholder="Контактный телефон *" required>
+                    <input id="dealersFormTel" class="form-item__inp js-mask-phone" type="tel" name="phone"
+                           placeholder="Контактный телефон *" required>
                 </div>
                 <div class="form-item">
-                    <input class="form-item__inp" type="text" name="org" placeholder="Наименование организации *"
+                    <input id="dealersFormOrg" class="form-item__inp" type="text" name="org"
+                           placeholder="Наименование организации *"
                            required>
                 </div>
                 <div class="form-item">
-                    <input class="form-item__inp" type="email" name="email" placeholder="Email *" required>
+                    <input id="dealersFormEmail" class="form-item__inp" type="email" name="email" placeholder="Email *"
+                           required>
                 </div>
                 <div class="form-item">
                     <input class="form-item__inp" type="text" name="opit" placeholder="Краткий опыт работы на рынке">
@@ -187,12 +193,13 @@
 
                 <div class="dealers-partners__order__footer">
                     <label class="custom-checkbox custom-checkbox--white">
-                        <input type="checkbox" checked name="pol" value="1">
+                        <input id="dealersFormPolitika" type="checkbox" checked name="pol" value="1">
                         <span class="custom-checkbox__val">
                                 Нажимая на кнопку «Подписаться», вы подтверждаете свое согласие с
                                 <a href="" target="_blank" class="text-nowrap">Политикой конфиденциальности</a>
                             </span>
                     </label>
+                    <div id="dealersFormPolitikaError"></div>
                 </div>
                 <div class="dealers-partners__order__submit">
                     <button type="submit" class="btn btn--blue btn--h64"><span
