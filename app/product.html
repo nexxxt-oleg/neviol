@@ -21,7 +21,8 @@
                 <div class="single-product__header__img">
                     <picture>
                         <source srcset="images/dist/pr1.png 1x, images/dist/pr1@2.png 2x">
-                        <img src="images/dist/pr1.png" width="623" height="520" loading="lazy" alt="" class="single-product__header__img__animate" style="opacity: 0">
+                        <img src="images/dist/pr1.png" width="623" height="520" loading="lazy" alt=""
+                             class="single-product__header__img__animate" style="opacity: 0">
                     </picture>
                     <div class="single-product__header__ip" style="opacity: 0">
                         <svg width="68" height="23" viewBox="0 0 68 23" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -66,7 +67,8 @@
                                 <a href="">Скачать презентацию</a>
                             </li>
                         </ul>
-                        <a data-bs-toggle="modal" data-bs-target="#kpModal" href="#kpModal" class="btn btn--blue btn--h64">
+                        <a data-bs-toggle="modal" data-bs-target="#kpModal" href="#kpModal"
+                           class="btn btn--blue btn--h64">
                             <span>Получить КП</span>
                         </a>
                         <a href="" class="btn btn--blue btn--h64 d-lg-none">
@@ -317,7 +319,8 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-4 fpad16 fade_in_up">
-                        <div class="single-product__card single-product__card--mob-h" style="background-color: #e56612;">
+                        <div class="single-product__card single-product__card--mob-h"
+                             style="background-color: #e56612;">
                             <div class="single-product__card__wrap single-product__card__wrap--white mt-auto animate-text-up">
                                 <h3>Конвекция</h3>
                                 <p>Равномерное распределения тепла и возможности готовить на нескольких уровнях
@@ -365,7 +368,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 fpad16 fade_in_up" >
+                    <div class="col-lg-6 fpad16 fade_in_up">
                         <div class="single-product__card" style="background-color: #000;">
                             <div class="single-product__card__wrap single-product__card__wrap--white mt-auto mb-auto mw-320 animate-text-up">
                                 <h3>
@@ -497,15 +500,33 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 fade_in_up">
+                    <div class="col-lg-6">
                         <div class="single-product__full-img-left">
                             <div class="single-product__full-img-left__wrap">
-                                <picture>
+                                <!--picture>
                                     <source srcset="images/dist/left1_mob.png" media="(max-width: 911px)">
                                     <source srcset="images/dist/left1.png 1x, images/dist/left1@2.png 2x"
                                             media="(min-width: 991.1px)">
                                     <img src="images/dist/left1.png" width="1055" height="673" loading="lazy" alt="">
-                                </picture>
+                                </picture-->
+                                <div class="d-lg-none">
+                                    <img src="images/dist/left1_mob.png" width="280" height="178" loading="lazy"
+                                         alt="">
+                                </div>
+                                <div class="single-product__full-img-left__back d-none d-lg-block">
+                                    <picture>
+                                        <source srcset="images/dist/left1_back.png 1x, images/dist/left1_back@2.png 2x">
+                                        <img src="images/dist/left1_back.png" width="880" height="673" loading="lazy"
+                                             alt="">
+                                    </picture>
+                                </div>
+                                <div class="single-product__full-img-left__front d-none d-lg-block" id="imgFront">
+                                    <picture>
+                                        <source srcset="images/dist/left1_front.png 1x, images/dist/left1_front@2.png 2x">
+                                        <img src="images/dist/left1_front.png" width="880" height="673" loading="lazy"
+                                             alt="">
+                                    </picture>
+                                </div>
                             </div>
                         </div>
                     </div>

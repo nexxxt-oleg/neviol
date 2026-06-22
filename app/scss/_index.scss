@@ -1104,6 +1104,17 @@ button:focus {
   display: none;
 }
 
+.single-product__full-img-left__back {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+}
+.single-product__full-img-left__front {
+  position: relative;
+  z-index: 2;
+}
+
 @media (min-width: 576px) {
   .modal {
     --bs-modal-margin: 4rem;
