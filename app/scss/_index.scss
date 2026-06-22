@@ -1114,6 +1114,9 @@ button:focus {
   position: relative;
   z-index: 2;
 }
+.single-product__nav__list__phone {
+  display: none;
+}
 
 @media (min-width: 576px) {
   .modal {
@@ -1197,6 +1200,8 @@ button:focus {
 .form-politic {
   padding: 20px 0 40px;
 }
+
+
 
 .form-checkbox {
   display: block;
@@ -2182,6 +2187,15 @@ button:focus {
     top: 20px;
     .single-product__nav__list {
       background: rgba(10, 12, 17, 0.5);
+      width: 923px;
+      .single-product__nav__list__phone {
+        display: block;
+        a {
+          font-weight: 700;
+          font-size: 15px;
+          color: #fff;
+        }
+      }
     }
   }
 
