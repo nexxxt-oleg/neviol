@@ -283,7 +283,14 @@ a {
     }
   }
 }
-
+#loadImg {
+  color: #fff;
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  margin: -20px 0 0 -20px;
+}
 .fpad16 {
   padding-bottom: 1rem;
 }
